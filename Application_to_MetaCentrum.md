@@ -1,4 +1,4 @@
-**Application to MetaCentrum and how to set access to its resources**
+# Application to MetaCentrum and how to set access to its resources
 
 1.  At the page <http://metavo.metacentrum.cz/en/index.html> click on Getting an
     account – Registration form and to Univerzita Karlova (or your institution)
