@@ -1,3 +1,4 @@
+#!/bin/bash
 #Mount MetaCentrum dir to folder /storage
 #This works probably only on CentOS 7 (tested on VM in MetaCentrum cloud)
 #Based on https://wiki.metacentrum.cz/wiki/Mounting_data_storages_on_local_station
