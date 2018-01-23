@@ -64,7 +64,7 @@ your MetaCentrum data are in the folder /storage/brno7-cerit/home/username
 10.  It is also possible to download all above mentioned instruction as a single file
 
 ```
-wget http://botany.natur.cuni.cz/fer/mountMETA.sh
+wget https://raw.githubusercontent.com/tomas-fer/MetaCentrum/master/mountMETA.sh
 ```
 
 make the script executable
