@@ -1,4 +1,4 @@
-**How to map MetaCentrum disks as local (e.g., in VM)**
+ # How to map MetaCentrum disks as local (e.g., in VM)
 
 (instructions for CentOS 7, for other distributions see
 <https://wiki.metacentrum.cz/wiki/Mounting_data_storages_on_local_station>)
