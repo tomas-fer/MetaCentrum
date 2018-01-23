@@ -5,7 +5,7 @@ tips for using MetaCentrum (Czech National Grid)
 * running VM in MetaCloud
 * access to MetaCentrum disks from VM
 
-
+  
 MetaCentrum wiki
 https://wiki.metacentrum.cz/wiki/Main_Page  
 
