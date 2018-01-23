@@ -12,7 +12,7 @@ yum install -y heimdal-appl-clients krb5-workstation nfs-utils
 2.  copy Kerberos configuration from skirit
 
 ```
-scp username\@skirit.ics.muni.cz:/etc/krb5.conf /etc
+scp username@skirit.ics.muni.cz:/etc/krb5.conf /etc
 ```
 
 3.  allow NFS and RPCSEC support
@@ -25,14 +25,14 @@ modprobe auth_rpcgss
 4.  generate Kerberos ticket (by connecting to MetaCentrum, e.g., skirit)
 
 ```
-ssh username\@skirit.ics.muni.cz "/software/remctl-2.12/bin/remctl \
--d kdccesnet.ics.muni.cz accounts nfskeytab \> krb5.keytab"
+ssh username@skirit.ics.muni.cz "/software/remctl-2.12/bin/remctl \
+-d kdccesnet.ics.muni.cz accounts nfskeytab > krb5.keytab"
 ```
 
 5.  copy ticket to the local machine
 
 ```
-scp username\@skirit.ics.muni.cz:krb5.keytab /etc/
+scp username@skirit.ics.muni.cz:krb5.keytab /etc/
 ```
 
 6.  start NFS
@@ -51,7 +51,7 @@ mkdir -p /storage/brno7-cerit
 
 ```
 echo "storage-brno7-cerit.metacentrum.cz/ /storage/brno7-cerit nfs4       sec=krb5              0 0" \
-| sudo tee -a /etc/fstab \> /dev/null
+| sudo tee -a /etc/fstab > /dev/null
 ```
 9.  mount MetaCentrum disk
 
