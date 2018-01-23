@@ -1,4 +1,4 @@
-****How to run VM in MetaCentrum cloud and set access from Windows using Putty****
+# How to run VM in MetaCentrum cloud and set access from Windows using Putty
 
 <https://wiki.metacentrum.cz/wiki/MetaCloud_testbed_registration>
 <https://wiki.metacentrum.cz/wiki/MetaCloud_testbed_%E2%80%93_quick_guide>
