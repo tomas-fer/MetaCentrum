@@ -2,7 +2,7 @@
 
 Tips for using MetaCentrum (Czech National Grid)  
 ---
-* application to MetaCentrum (and setting access from Windows)
+* [application to MetaCentrum](Application_to_MetaCentrum.md) (and setting access from Windows)
 * running VM in MetaCloud
 * access to MetaCentrum disks from VM  
 ---
