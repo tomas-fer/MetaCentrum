@@ -4,6 +4,8 @@ tips for using MetaCentrum (Czech National Grid)
 * application to MetaCentrum (and setting access from Windows)
 * running VM in MetaCloud
 * access to MetaCentrum disks from VM  
+
+* prepare working VM (CentOS 7) for HybPiper and FastPlast
   
   
 MetaCentrum wiki
