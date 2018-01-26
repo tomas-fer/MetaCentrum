@@ -5,7 +5,8 @@
 #RUN WITH YOUR METACENTRUM LOGIN AS PARAMETER (e.g., ./mountMETA.sh yourlogin)
 username=$1
 #add support for Kerberos and NFS
-yum install -y heimdal-appl-clients krb5-workstation nfs-utils
+#yum install -y heimdal-appl-clients
+yum install -y krb5-workstation nfs-utils
 #Copy Kerberos configuration from MetaCentrum (skirit)
 scp ${username}@skirit.ics.muni.cz:/etc/krb5.conf /etc
 #allow NFS and RPCGSS support
