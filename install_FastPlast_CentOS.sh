@@ -10,4 +10,5 @@ yum install -y perl-IO-Compress
 yum install -y zlib-devel
 # Clone FastPlast
 git clone https://github.com/mrmckain/Fast-Plast.git
-cd FastPlast
+cd Fast-Plast
+perl INSTALL.pl
