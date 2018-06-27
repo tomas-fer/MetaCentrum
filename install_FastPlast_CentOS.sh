@@ -8,7 +8,9 @@ yum install -y perl-Env
 yum install -y perl-IO-Compress
 # Install zlib library
 yum install -y zlib-devel
-# Clone FastPlast
+# Install R
+yum install R
+# Clone & install FastPlast
 git clone https://github.com/mrmckain/Fast-Plast.git
 cd Fast-Plast
 perl INSTALL.pl
