@@ -17,7 +17,7 @@
     SSH client for login to MetaCentrum computers.
 
 2.  Settings of the program is at
-    <https://wiki.metacentrum.cz/wiki/Usage_of_Putty>
+    <https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY>
 
 3.  Download software WinSCP from <http://winscp.net/eng/download.php>. This
     software is for file transfer between your computer and MetaCentrum.
